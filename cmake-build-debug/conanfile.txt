@@ -1,0 +1,4 @@
+[requires]
+botan/2.19.1
+[generators]
+cmake_find_package
