@@ -111,7 +111,7 @@ __attribute__((unused)) Lat_Long_Alt_Data * init_lat_long_alt_from_values(Lat_Lo
 
 __attribute__((unused)) Lat_Long_Data * init_lat_long_from_values(Lat_Long_Data * init_struct) ;
 
-__attribute__((unused)) Path_Lat_Long points_to_path(std::vector<Lat_Long_Data> * points_vec, Path * result, unsigned long begin_pos, unsigned long end_pos ) ;
+__attribute__((unused)) Path_Lat_Long points_to_path(std::vector<Lat_Long_Data> * points_vec, Path_Lat_Long * result, unsigned long begin_pos, unsigned long end_pos ) ;
 
 void lla_to_xyz(Lat_Long_Alt_Data * lla_data, Cartesian_Coordinates * xyz_coords) ;
 
