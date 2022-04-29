@@ -2,6 +2,7 @@
 #include <cmath>
 #include <iomanip>
 
+
 __attribute__((unused)) Lat_Long_Alt_Data * init_lat_long_alt_from_values(Lat_Long_Alt_Data * init_struct)
 {
     init_struct->altitude_str = std::to_string(init_struct->altitude) ;
